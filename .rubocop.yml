@@ -1,0 +1,15 @@
+# inherit_gem:
+#   onkcop:
+#     - 'config/rubocop.yml'
+#     - 'config/rails.yml'
+#     - 'config/rspec.yml'
+AllCops:
+  Exclude:
+    - 'vendor/**/*'
+    - 'db/**/*'
+    - 'bin/*'
+  DisplayCopNames: true
+  TargetRubyVersion: 2.4
+
+Rails:
+  Enabled: true

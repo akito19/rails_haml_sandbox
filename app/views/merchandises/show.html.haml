@@ -1,0 +1,16 @@
+%p#notice= notice
+
+%p
+  %strong Name:
+  = @merchandise.name
+
+%p
+  %strong Price:
+  = @merchandise.price
+
+%p
+  %strong Description:
+  = @merchandise.description
+
+= link_to 'Edit', edit_merchandise_path(@merchandise)
+= link_to 'Back', merchandises_path
