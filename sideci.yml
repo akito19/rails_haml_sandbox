@@ -2,5 +2,3 @@ linter:
   haml_lint:
     options:
       config: '.haml-lint.yml'
-      exclude:
-        - '.rubocop.yml'
