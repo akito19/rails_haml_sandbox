@@ -12,11 +12,11 @@
   %tbody
     = @users.each do |user|
       %tr
-        %td#Foo1= user.name
-        %td#Foo2= user.postal
-        %td#Foo3= link_to 'Show', user
-        %td#Foo4= link_to 'Edit', edit_user_path(user)
-        %td#Foo5= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' }
+        %td= user.name
+        %td= user.postal
+        %td= link_to 'Show', user
+        %td= link_to 'Edit', edit_user_path(user)
+        %td= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' }
 %br
 
 = link_to 'New User', new_user_path
