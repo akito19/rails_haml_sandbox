@@ -26,6 +26,7 @@ gem 'haml', '~> 5.0.1'
 gem 'rubocop', require: false
 gem 'onkcop', require: false
 gem 'haml_lint', require: false
+gem 'scss_lint', require: false
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
