@@ -73,6 +73,6 @@ class MerchandisesController < ApplicationController
     end
 
     def sample_rubocop
-      p 'foo'
+      p "foo"
     end
 end
