@@ -1,8 +1,6 @@
-# inherit_gem:
-#   onkcop:
-#     - 'config/rubocop.yml'
-#     - 'config/rails.yml'
-#     - 'config/rspec.yml'
+inherit_from:
+  - lint_yml/rubocop.yml
+
 AllCops:
   Exclude:
     - 'vendor/**/*'
@@ -10,6 +8,3 @@ AllCops:
     - 'bin/*'
   DisplayCopNames: true
   TargetRubyVersion: 2.4
-
-Rails:
-  Enabled: true
