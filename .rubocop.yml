@@ -1,8 +1,4 @@
-# inherit_gem:
-#   onkcop:
-#     - 'config/rubocop.yml'
-#     - 'config/rails.yml'
-#     - 'config/rspec.yml'
+inherit_from: .rubocop_todo.yml
 AllCops:
   Exclude:
     - 'vendor/**/*'
