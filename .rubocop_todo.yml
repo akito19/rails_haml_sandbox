@@ -1,5 +1,2 @@
 Layout/LineLength:
   Enabled: false
-
-Style/EmptyMethod:
-  Enabled: false
