@@ -1,0 +1,27 @@
+{
+  "name": "rails_haml_sandbox",
+  "version": "1.0.0",
+  "description": "This is a sandbox for Rails and Haml. I use it for linters, RuboCop and haml-lint.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/akito-sandbox/rails_haml_sandbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "4.0.0",
+    "eslint-plugin-import": "2.8.0"
+  },
+  "bugs": {
+    "url": "https://github.com/akito-sandbox/rails_haml_sandbox/issues"
+  },
+  "homepage": "https://github.com/akito-sandbox/rails_haml_sandbox#readme"
+}
