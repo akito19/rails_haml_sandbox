@@ -1,0 +1,6 @@
+extends: "eslint:recommended"
+plugins:
+  - import
+rules:
+  no-label-var: error
+  import/named: 2
