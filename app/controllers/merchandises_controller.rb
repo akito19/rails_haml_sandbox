@@ -71,4 +71,8 @@ class MerchandisesController < ApplicationController
     def merchandise_params
       params.require(:merchandise).permit(:name, :price, :description)
     end
+
+  def foo(bar, baz)
+    [bar, baz]
+  end
 end
