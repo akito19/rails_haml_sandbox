@@ -2,3 +2,6 @@ linter:
   haml_lint:
     options:
       config: '.haml-lint.yml'
+branches:
+  ignore:
+    - ignorable-branch
