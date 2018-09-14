@@ -19,6 +19,11 @@ class MerchandisesController < ApplicationController
 
   # GET /merchandises/1/edit
   def edit
+    
+
+
+
+
   end
 
   # POST /merchandises
