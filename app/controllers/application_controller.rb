@@ -5,4 +5,9 @@ class ApplicationController < ActionController::Base
     recieve = 'hogehogehogehoge'
 
   end
+
+
+  def defualt
+    programmme = 'deualt'
+  end
 end
