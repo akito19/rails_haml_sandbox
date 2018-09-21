@@ -2,6 +2,8 @@ linter:
   haml_lint:
     options:
       config: '.haml-lint.yml'
+  rails_best_practices:
+    root_dir: false
 branches:
   exclude:
     - ignorable-branch
