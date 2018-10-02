@@ -4,5 +4,4 @@ linter:
       config: '.haml-lint.yml'
 branches:
   exclude:
-    - ignorable-branch
-    - ignore-branch
+    - skip-branch-tochu
