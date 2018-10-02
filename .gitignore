@@ -16,6 +16,8 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
+/frontend/node_modules/
+/frontend/dist/bundle.js
 
 /vendor/
 
