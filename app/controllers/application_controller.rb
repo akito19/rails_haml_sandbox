@@ -4,4 +4,8 @@ class ApplicationController < ActionController::Base
   def typo
     puts 'defualt method'
   end
+
+  def additional_typo
+    puts 'infomation'
+  end
 end
