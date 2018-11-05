@@ -19,6 +19,11 @@ class MerchandisesController < ApplicationController
 
   # GET /merchandises/1/edit
   def edit
+    
+
+
+
+
   end
 
   # POST /merchandises
@@ -71,4 +76,13 @@ class MerchandisesController < ApplicationController
     def merchandise_params
       params.require(:merchandise).permit(:name, :price, :description)
     end
+
+
+  def banananana
+
+
+
+      puts 
+      'banana'
+  end
 end
