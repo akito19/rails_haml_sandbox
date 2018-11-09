@@ -6,7 +6,6 @@ class ApplicationController < ActionController::Base
   def microtramsactions; end
   def characteristsics; end
   def disporportionate; end
-  def nationalististic; end
   def charactaristics; end
   def procrastinating; end
 end
