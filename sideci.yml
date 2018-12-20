@@ -1,4 +1,6 @@
 linter:
+  misspell:
+    locale: US
   haml_lint:
     options:
       config: '.haml-lint.yml'
