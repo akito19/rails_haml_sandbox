@@ -60,4 +60,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # test
 gem 'rails_best_practices'
-gem 'slim'
+gem 'slim-rails'
