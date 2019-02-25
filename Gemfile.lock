@@ -1,3 +1,9 @@
+GIT
+  remote: git@github.com:akito19/private_rubocop_config.git
+  revision: d38f6a9496b34f31e65dc598e14411117aea1f98
+  specs:
+    private_rubocop_config (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -100,9 +106,6 @@ GEM
     nio4r (2.3.1)
     nokogiri (1.8.5)
       mini_portile2 (~> 2.3.0)
-    onkcop (0.53.0.2)
-      rubocop (>= 0.53.0)
-      rubocop-rspec (>= 1.24.0)
     parallel (1.12.1)
     parser (2.5.3.0)
       ast (~> 2.4.0)
@@ -148,8 +151,6 @@ GEM
       rainbow (>= 2.2.2, < 4.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (~> 1.4.0)
-    rubocop-rspec (1.30.1)
-      rubocop (>= 0.60.0)
     ruby-progressbar (1.10.0)
     ruby_dep (1.5.0)
     sass (3.7.2)
@@ -208,8 +209,8 @@ DEPENDENCIES
   haml_lint
   jbuilder (~> 2.5)
   jquery-rails
-  listen
-  onkcop
+  listen (~> 3.1.0)
+  private_rubocop_config!
   puma (~> 3.0)
   rails (= 5.2.1)
   rubocop
@@ -223,4 +224,4 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 BUNDLED WITH
-   1.17.1
+   2.0.1
