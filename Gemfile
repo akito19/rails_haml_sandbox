@@ -24,7 +24,8 @@ gem 'coffee-rails'
 gem 'haml', '~> 5.0.1'
 # linter
 gem 'rubocop', require: false
-gem 'onkcop', require: false
+# gem 'onkcop', require: false
+gem 'private_rubocop_config', git: 'git@github.com:akito19/private_rubocop_config.git'
 gem 'haml_lint', require: false
 
 # Use jquery as the JavaScript library

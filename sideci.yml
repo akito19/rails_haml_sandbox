@@ -2,6 +2,8 @@ linter:
   haml_lint:
     options:
       config: '.haml-lint.yml'
+  eslint:
+    npm_install: true
 branches:
   exclude:
     - ignorable-branch

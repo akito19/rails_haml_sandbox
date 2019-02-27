@@ -1,4 +1,5 @@
-inherit_from: .rubocop_todo.yml
+inherit_from:
+  private-rubocop-config: config/rubocop.yml
 AllCops:
   Exclude:
     - 'vendor/**/*'
