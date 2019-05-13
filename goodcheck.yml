@@ -1,0 +1,8 @@
+rules:
+  - id: sandbox.negation
+    not:
+      pattern: SOME_CONSTANT
+    message:
+      Use `SOME_CONSTANT` to express bluh bluh bluh.
+    glob:
+      - "**/*.rb"
